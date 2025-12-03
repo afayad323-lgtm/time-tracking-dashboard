@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>time tracking</title>
+  </head>
+  <body>
+    <main class="dashboard">
+      <aside class="sidebar">
+        <div class="user-card">
+          <div class="user-info">
+            <img
+              src="time-tracking-dashboard-main/images/image-jeremy.png"
+              alt=""
+            />
+            <div>
+              <p>Report For</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="controls">
+            <button data-timeframe="daily">Daily</button>
+            <button data-timeframe="weekly" class="active">Weekly</button>
+            <button data-timeframe="monthly">Monthly</button>
+          </div>
+        </div>
+      </aside>
+      <section class="cards"></section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
